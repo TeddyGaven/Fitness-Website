@@ -1,3 +1,3 @@
 # Fitness-Website
 
-A simple Front-end website made for practice
+A simple responsive Front-end website made for practice
