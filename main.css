@@ -1,0 +1,795 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 150px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+html{
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#logo{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 30px;
+    width: auto;
+}
+
+nav > a{
+    margin-left: 20px;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+nav > a:hover{
+    color: rgb(0, 20, 136);
+    background-color:bisque
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+
+#sub-main{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bruh{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#bg{
+    width: 100%;
+}
+
+#powerlifting{
+    width: 450px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#powerliftingdiet{
+    width: 450px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#deadlift{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#deadliftdiet{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+#strength{
+    color: white;
+}
+
+#strengthdiet{
+    color: white;
+}
+
+#prog1{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#prog1diet{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#baki{
+    width: 450px;
+    height: auto;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#shredded{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#shred{
+    color: white;
+}
+
+#prog2{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#bakidiet{
+    width: 450px;
+    height: auto;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#shreddeddiet{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#shreddiet{
+    color: white;
+}
+
+#prog2diet{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#slim{
+    width: 450px;
+    height: auto;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#thin{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slimdiet{
+    width: 450px;
+    height: auto;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#thindiet{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.txt1{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#fatloss{
+    color: white;
+}
+
+#prog3{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#fatlossdiet{
+    color: white;
+}
+
+#prog3diet{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tit1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#tit2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100px;
+    height: auto;
+    margin-left: 40px;
+}
+
+#submit{
+    margin-top: 30px;
+}
+
+.para{
+    font-size: 20px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#tit1{
+    font-size: 20px;
+    align-self: center;
+    justify-content: center;
+    padding: 0%;
+    margin-top: 200px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    color: rgb(255, 26, 26);
+}
+
+p{
+    display: grid;
+}
+
+.para{
+    font-size: 1.5rem;
+    width: auto;
+    display: grid;
+    display: flex;
+}
+
+#tit2{
+    font-size: 20px;
+    align-self: center;
+    justify-content: center;
+    padding: 0%;
+    margin-top: 30px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    margin-left: 25px;
+    color: rgb(255, 26, 26);
+}
+
+#tit3{
+    font-size: 20px;
+    align-self: center;
+    justify-content: center;
+    padding: 0%;
+    margin-top: 30px;
+    margin-right: 50px;
+    display: flex;
+    width: auto;
+    margin-left: 25px;
+    color: rgb(255, 26, 26);
+}
+
+
+#register{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+}
+
+input, textarea{
+    width: 170px;
+    
+}
+
+fieldset{
+    margin-top: 30px;
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#tit1{
+    width: auto;
+    font-size: calc(1vw + 1.5rem);
+    margin-left: 10px;
+} 
+
+#tit2{
+    width: auto;
+    font-size: calc(1vw + 1.5rem);
+} 
+
+#tit3{
+    width: auto;
+    font-size: calc(1vw + 1.5rem);
+} 
+
+
+.para{
+    font-size: calc(.5vw + 1rem);
+}
+
+#register{
+    margin-left: 50px;
+}
+
+#fatloss, #fatlossdiet, #shred, #shreddiet, #strength, #strengthdiet{
+    font-size: 25px;
+}
+
+#prog1, #prog1diet, #prog2, #prog2diet, #prog3, #prog3diet{
+    font-size: 25px;
+}
+
+.para{
+    font-size: 25px;
+}
+
+.txt1{
+    font-size: 25px;
+}
+
+.bruh{
+    font-size: 40px;
+}
+
+footer{
+    font-size: 20px;
+    background-color: rgb(245, 245, 145);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height:50px;
+}
+
+.foot{
+     color: rgb(255, 0, 0);
+}
+
+
+@media screen and (min-width:150px) and (max-width:700px){
+
+    #bg{
+        display: none;
+        opacity: 0;
+    } 
+
+
+    header{
+        display: flex;
+        justify-content: flex-start;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: 150px;
+    }
+
+    #logo{
+        color: white;
+        font-size: 50px;
+        margin-left: 10px;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        margin-left: 100px;
+    }
+    
+    nav > a{
+        margin-left: 2px;
+        font-style: none;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    #sub-main{
+        position: absolute;
+        left: 0%;
+        top: 10%;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #tit1{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 400px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        color: rgb(255, 26, 26);
+    }
+
+    p{
+        display: grid;
+    }
+
+    .para{
+        font-size: 1.5rem;
+        font-size: 20px;
+        width: auto;
+        display: grid;
+        display: flex;
+    }
+
+    #tit2{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 30px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        margin-left: 25px;
+        color: rgb(255, 26, 26);
+    }
+
+    #tit3{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 30px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        margin-left: 25px;
+        color: rgb(255, 26, 26);
+    }
+
+
+    #main2{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    
+    #main3{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    #powerlifting, #powerliftingdiet{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #baki, #bakidiet{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #slim, #slimdiet{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+
+    
+    #register{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 50px;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    input{
+        width: 130px;
+    }
+
+    #tit1{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+        margin-left: 10px;
+    } 
+
+    #tit2{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+    } 
+
+    #tit3{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+    } 
+
+
+    .para{
+        font-size: calc(.5vw + 1rem);
+        font-size: 20px;
+    }
+
+    .bruh{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    #register{
+        margin-left: 20px;
+    }
+
+    .bruh{
+        color: blue;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1300px){
+    
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+    }
+
+    
+    #main2{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    
+    #main3{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        margin-left: 40px;
+    }
+
+
+    #tit1{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 200px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        color: rgb(255, 26, 26);
+    }
+
+    #tit2{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 30px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        margin-left: 25px;
+        color: rgb(255, 26, 26);
+    }
+
+    #tit3{
+        font-size: 20px;
+        align-self: center;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 30px;
+        margin-right: 50px;
+        display: flex;
+        width: auto;
+        margin-left: 25px;
+        color: rgb(255, 26, 26);
+    }
+
+
+    #tit1{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+        margin-left: 10px;
+    } 
+
+    #tit2{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+    } 
+
+    #tit3{
+        width: auto;
+        font-size: calc(1vw + 1.5rem);
+    } 
+
+    .para1{
+        margin-left: 40px;
+        font-size: 30px;
+        width: auto;
+    }
+
+    .para{
+        width: auto;
+    }
+
+    #bg{
+        width: 100%;
+    }
+
+    #logo{
+        margin-left: 20px;
+    }
+
+    #powerlifting, #powerliftingdiet{
+        width: 300px;
+        height: auto;
+    }
+
+    #baki, #bakidiet{
+        width: 300px;
+        height: auto;
+    }
+
+    #slim, #slimdiet{
+        width: 300px;
+        height: auto;
+    }   
+
+}
+
+@media screen and (min-width: 1200) and (max-width: 1500){
+
+    #powerlifting, #powerliftingdiet{
+        width: 200px;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+
+    #baki, #bakidiet{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #slim, #slimdiet{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .para1{
+        font-size: 10px;
+    }
+}
