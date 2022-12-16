@@ -281,9 +281,7 @@ nav > a:hover{
     margin-top: 30px;
 }
 
-.para{
-    font-size: 20px;
-}
+
 
 body{
     margin: 0px;
@@ -401,10 +399,6 @@ fieldset{
     font-size: 25px;
 }
 
-.para{
-    font-size: 25px;
-}
-
 .txt1{
     font-size: 25px;
 }
@@ -508,7 +502,6 @@ footer{
 
     .para{
         font-size: 1.5rem;
-        font-size: 20px;
         width: auto;
         display: grid;
         display: flex;
@@ -618,7 +611,6 @@ footer{
 
     .para{
         font-size: calc(.5vw + 1rem);
-        font-size: 20px;
     }
 
     .bruh{
@@ -727,7 +719,6 @@ footer{
 
     .para1{
         margin-left: 40px;
-        font-size: 30px;
         width: auto;
     }
 
@@ -789,7 +780,4 @@ footer{
         margin-right: 0px;
     }
 
-    .para1{
-        font-size: 10px;
-    }
 }
