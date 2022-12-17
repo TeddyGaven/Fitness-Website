@@ -494,6 +494,7 @@ footer{
         display: flex;
         width: auto;
         color: rgb(255, 26, 26);
+
     }
 
     p{
@@ -627,6 +628,26 @@ footer{
 
     .bruh{
         color: blue;
+    }
+
+    nav{
+        margin-left: 10px;
+        background-color: black;
+        height: 150px;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+
+    nav>a{
+        align-self: center;
+        align-items: center;
+    }
+
+    #home{
+        margin-bottom: 150px;
     }
 
 }
